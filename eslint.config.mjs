@@ -51,7 +51,12 @@ export default [
     },
     rules: {
       // Prettier integration
-      "prettier/prettier": "error",
+      "prettier/prettier": [
+        "error",
+        {
+          endOfLine: "auto",
+        },
+      ],
 
       // JavaScript/TypeScript best practices
       "no-unused-vars": "off", // Turn off base rule
