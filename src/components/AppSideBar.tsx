@@ -1,3 +1,5 @@
 export default function AppSideBar() {
-  return <div>AppSideBar</div>;
+  const a = "";
+
+  return <div className={a}>AppSideBar</div>;
 }
